@@ -6,6 +6,15 @@
 
 * **cua-driver:** deliver X11 key-down before the tap delay and finish background keyboard delivery before closing the input connection.
 
+## [0.28.3](https://github.com/trycua/cua/compare/cua-driver-rs-v0.28.2...cua-driver-rs-v0.28.3) (2026-09-16)
+
+
+### Bug Fixes
+
+* **cua-driver:** preserve observed X11 click identities ([#3864](https://github.com/trycua/cua/issues/3864)) ([27062ed](https://github.com/trycua/cua/commit/27062ed04a36a5aa1969fa44f58349d16f0bdc13))
+* **cua-driver:** report surviving local install on uninstall ([#3021](https://github.com/trycua/cua/issues/3021)) ([625118a](https://github.com/trycua/cua/commit/625118a9076e51da2f57b6a5d475972030197443))
+* **cua-driver:** stabilize Hyprland agent input ([f6be600](https://github.com/trycua/cua/commit/f6be60087b8d1bb3d0a822ea11736761b8b8ace0))
+
 ## [0.28.2](https://github.com/trycua/cua/compare/cua-driver-rs-v0.28.1...cua-driver-rs-v0.28.2) (2026-09-15)
 
 
